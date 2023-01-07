@@ -40,8 +40,8 @@ After EDA, I started with preparing my data set for modelling. Split was perform
 ROC curve was plotted. AUC was found to be 0.69. which is better than the random model(0.5 AUC), but not the best obviously. Also, there was a huge class imbalance in test data set. Due to this AUC-ROC doesn't work.
 8. PRC works even if there is an unbalance. AUC was found to be 0.87 across all the thresholds which was very good. 
 From the confusion matrix, I could see that type2 error is very high as compared to type 1 error. We might lose good customers, but we will not be at# a loss by giving loans to non credit worthy customers.
-9. Tradeoff questions: In my case, I have defined 1 as fully paid and 0 as charged off. Hence, type1 error (False postive) is Model has falsely predicted that an individual will fully pay the loan amount and type2 error (False negative) is Model has falsely predicted that an individual will be charged off. If I want to generate more revenue or not lose out on an opportunity to finance more individuals and earn interest on it, I will decrease my false negatives using Recall score. I will tune my model until I get the best recall score.
-To avoid NPA's in the future,  we can tune our model on precision score such that there lesser false positives.
+9. In my case, I have defined 1 as fully paid and 0 as charged off. Hence, type1 error (False postive) is Model has falsely predicted that an individual will fully pay the loan amount and type2 error (False negative) is Model has falsely predicted that an individual will be charged off. If I want to generate more revenue or not lose out on an opportunity to finance more individuals and earn interest on it, I will decrease my false negatives using Recall score. I will tune my model until I get the best recall score.
+10. To avoid NPA's in the future,  we can tune our model on precision score such that there lesser false positives.
 
 To whoever reads this, I hope my insights and recommendations from this case study were meaningful.
 
