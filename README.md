@@ -1,4 +1,4 @@
-## Credit_line_Extension_prediction
+## Credit_line_Extension
 
 ### Business Case: LoanTap Logistic Regression
 
