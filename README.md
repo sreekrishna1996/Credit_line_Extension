@@ -1,6 +1,6 @@
 ## Credit_line_Extension
 
-### Business Case: LoanTap Logistic Regression
+### Business Case: LoanTap Classification
 
 #### Problem Statement:
 
